@@ -1,31 +1,96 @@
 {
 	"nodes": [
-		{ "id": "Hanson Leo" },
-		{ "id": "Tiva Koo" },
-		{ "id": "Yeo Zouk " },
-		{ "id": "Jack" },
-		{ "id": "Kay" },
-		{"id": "Thai"},
-		{"id": "Steven"},
-		{"id": "Chin"},
-		{"id": "Cindy"},
-		{"id": "Annie"}
-				
+		{
+			"id": "Hanson Leo"
+		},
+		{
+			"id": "Tiva Koo"
+		},
+		{
+			"id": "Yeo Zouk "
+		},
+		{
+			"id": "Jack"
+		},
+		{
+			"id": "Kay"
+		},
+		{
+			"id": "Thai"
+		},
+		{
+			"id": "Steven"
+		},
+		{
+			"id": "Chin"
+		},
+		{
+			"id": "Cindy"
+		},
+		{
+			"id": "Annie"
+		}
 	],
 	"links": [
-		{ "source": "Thai", "target": "Steven", "relation": "parent"},
-		{ "source": "Thai", "target": "Chin", "relation": "parent"},
-		{ "source": "Steven", "target": "Hanson Leo", "relation": "parent"},
-		{ "source": "Chin", "target": "Jack", "relation": "parent"},
-		{ "source": "Hanson Leo", "target": "Tiva Koo", "relation": "parent" },
-		{ "source": "Yeo Zouk ", "target": "Kay", "relation": "parent" },
-		{ "source": "Jack", "target": "Kay", "relation": "parent" },
-		{ "source": "Jack", "target": "Yeo Zouk ", "relation": "partner" },		
-		{ "source": "Yeo Zouk ", "target": "Cindy", "relation": "parent" },
-		{ "source": "Jack", "target": "Cindy", "relation": "parent" },
-		{ "source": "Yeo Zouk ", "target": "Annie", "relation": "parent" },
-		{ "source": "Jack", "target": "Annie", "relation": "parent" }
-
-
+		{
+			"source": "Thai",
+			"target": "Steven",
+			"relation": "parent"
+		},
+		{
+			"source": "Thai",
+			"target": "Chin",
+			"relation": "parent"
+		},
+		{
+			"source": "Steven",
+			"target": "Hanson Leo",
+			"relation": "parent"
+		},
+		{
+			"source": "Chin",
+			"target": "Jack",
+			"relation": "parent"
+		},
+		{
+			"source": "Hanson Leo",
+			"target": "Tiva Koo",
+			"relation": "parent"
+		},
+		{
+			"source": "Yeo Zouk ",
+			"target": "Kay",
+			"relation": "parent"
+		},
+		{
+			"source": "Jack",
+			"target": "Kay",
+			"relation": "parent"
+		},
+		{
+			"source": "Jack",
+			"target": "Yeo Zouk ",
+			"relation": "partner"
+		},
+		{
+			"source": "Yeo Zouk ",
+			"target": "Cindy",
+			"relation": "parent"
+		},
+		{
+			"source": "Jack",
+			"target": "Cindy",
+			"relation": "parent"
+		},
+		{
+			"source": "Yeo Zouk ",
+			"target": "Annie",
+			"relation": "parent"
+		},
+		{
+			"source": "Jack",
+			"target": "Annie",
+			"relation": "parent"
+		}
 	]
 }

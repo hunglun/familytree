@@ -22,7 +22,7 @@
     </style>
   </head>
   <body>
-    <h2>Ke Family Tree</h2>
+    <h2>Family Tree</h2>
     <svg width="800" height="600"></svg>
 
     <script>
@@ -33,7 +33,7 @@
           familyData = JSON.parse(req.responseText)["record"];
 
           if (familyData) {
-			console.log("from JSONBIN", familyData);
+            console.log("from JSONBIN", familyData);
             generateTreeFromData(familyData);
           } else {
             d3.json("family.json")
