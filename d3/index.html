@@ -76,18 +76,8 @@
               .id((d) => d.id)
               .distance(100)
           )
-          .force("charge", d3.forceManyBody().strength(-400))
+          .force("charge", d3.forceManyBody().strength(-200))
           .force("center", d3.forceCenter(width / 2, height / 2));
-
-        const link = svg
-          .append("g")
-          .selectAll("line")
-          .data(familyData.links)
-          .enter()
-          .append("line")
-          .attr("class", "link")
-          .attr("stroke", (d) => (d.relation === "partner" ? "#888" : "#ccc"))
-          .attr("stroke-width", 2);
 
         const node = svg
           .append("g")
